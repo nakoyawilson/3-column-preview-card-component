@@ -66,9 +66,8 @@ body {
 .learn-btn {
   background-color: var(--vlight-gray);
   border: none;
-  padding: 1rem 0;
+  padding: 1rem 2rem;
   border-radius: 40px;
-  width: 150px;
   font-size: 0.9rem;
   margin-top: 2rem;
   letter-spacing: 0.5px;
