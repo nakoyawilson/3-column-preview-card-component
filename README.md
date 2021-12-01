@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/mobilefirst-solution-using-flexbox-faSMQFXnp](https://www.frontendmentor.io/solutions/mobilefirst-solution-using-flexbox-faSMQFXnp)
 - Live Site URL: [https://nakoyawilson.github.io/3-column-preview-card-component/](https://nakoyawilson.github.io/3-column-preview-card-component/)
 
 ## My process
@@ -38,7 +38,6 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 
 ### Continued development
