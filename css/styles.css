@@ -8,12 +8,130 @@
   --vlight-gray: hsl(0, 0%, 95%);
 }
 
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--vlight-gray);
+  color: var(--transparent-white);
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  margin: 5rem 0;
+}
+
+.heading {
+  color: var(--vlight-gray);
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  display: block;
+  margin: 1.5rem 0;
+}
+
+/* Columns */
+.column {
+  padding: 3.5rem;
+}
+
+.sedan {
+  background-color: var(--bright-orange);
+  border-radius: 10px 10px 0 0;
+}
+
+.suv {
+  background-color: var(--dark-cyan);
+}
+
+.luxury {
+  background-color: var(--vdark-cyan);
+  border-radius: 0 0 10px 10px;
+}
+
+/* Button */
+.learn-btn {
+  background-color: var(--vlight-gray);
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 40px;
+  width: 150px;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+  letter-spacing: 0.5px;
+  border: 2px solid var(--vlight-gray);
+}
+
+.learn-btn:hover {
+  cursor: pointer;
+  color: var(--vlight-gray);
+  background-color: transparent;
+}
+
+.sedan-color {
+  color: var(--bright-orange);
+}
+
+.suv-color {
+  color: var(--dark-cyan);
+}
+
+.luxury-color {
+  color: var(--vdark-cyan);
+}
+
 /* Footer Section */
 .attribution {
   font-size: 11px;
   text-align: center;
+  color: var(--dark-cyan);
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--vdark-cyan);
+}
+
+.attribution a:hover {
+  color: var(--bright-orange);
+  text-decoration: none;
+}
+
+/* Media Queries */
+@media screen and (min-width: 375px) {
+  .container {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+  }
+
+  .sedan {
+    border-radius: 10px 0 0 10px;
+  }
+
+  .luxury {
+    border-radius: 0 10px 10px 0;
+  }
+
+  .learn-btn {
+    margin-top: 5rem;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0;
+  }
 }
