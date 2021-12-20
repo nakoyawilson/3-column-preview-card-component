@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
 
 :root {
   --bright-orange: hsl(31, 77%, 52%);
@@ -18,7 +18,7 @@
 body {
   background-color: var(--vlight-gray);
   color: var(--transparent-white);
-  font-family: 'Lexend Deca', sans-serif;
+  font-family: "Lexend Deca", sans-serif;
   font-size: 15px;
   display: flex;
   flex-direction: column;
@@ -28,18 +28,6 @@ body {
   line-height: 1.6;
 }
 
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
-}
-
 .container {
   width: 90%;
   margin: 5rem auto;
@@ -47,7 +35,7 @@ body {
 
 .heading {
   color: var(--vlight-gray);
-  font-family: 'Big Shoulders Display', cursive;
+  font-family: "Big Shoulders Display", cursive;
   font-weight: 700;
   font-size: 2.5rem;
   text-transform: uppercase;
