@@ -29,8 +29,9 @@ body {
 }
 
 .container {
-  width: 90%;
-  margin: 5rem auto;
+  width: min(86.4%, 57.5rem);
+  margin-inline: auto;
+  /* margin: 5rem auto; */
 }
 
 .heading {
@@ -45,7 +46,7 @@ body {
 
 /* Columns */
 .column {
-  padding: 3.5rem;
+  padding: 3rem;
 }
 
 .sedan {
@@ -111,7 +112,6 @@ body {
 /* Media Queries */
 @media screen and (min-width: 1100px) {
   .container {
-    width: 63rem;
     display: flex;
     flex-direction: row;
     margin: 0;
