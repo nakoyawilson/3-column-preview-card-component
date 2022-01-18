@@ -11,6 +11,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
 - [My process](#my-process)
   - [Built with](#built-with)
   - [Continued development](#continued-development)
+  - [Useful Links](#useful-links)
 - [Author](#author)
 
 ## Overview
@@ -43,6 +44,10 @@ Users should be able to:
 ### Continued development
 
 For future projects I would like to focus on mobile-first workflows.
+
+### Useful Links
+
+- [How to prevent line break at hyphens in all browsers - Stack Overflow](https://stackoverflow.com/a/8753317)
 
 ## Author
 
